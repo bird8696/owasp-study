@@ -1,0 +1,11 @@
+# ✅ GOOD: 버전 고정 + 해시 검증
+# 장점 1: 항상 동일한 버전 설치 보장
+# 장점 2: 해시로 파일 위변조 여부 검증 가능
+# 장점 3: 취약점 발생 시 어떤 버전인지 바로 파악 가능
+#
+# 생성 방법: pip-compile requirements.in 또는
+#            pip freeze > requirements.txt
+
+flask==3.1.0
+requests==2.32.3
+pyyaml==6.0.2
